@@ -1,0 +1,16 @@
+{
+  "name": "fh-javascript",
+  "packageManager": "pnpm@9.5.0",
+  "author": "Hruthik Reddy <info@frontendhire.com>",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {},
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "eslint": "9.x",
+    "globals": "^15.8.0",
+    "prettier": "3.3.3",
+    "vite": "^5.3.4",
+    "vitest": "^2.0.3"
+  }
+}
