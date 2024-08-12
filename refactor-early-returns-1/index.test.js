@@ -1,5 +1,5 @@
 import { describe, test } from 'vitest';
 
-describe('refactor-long-method-1', () => {
+describe('refactor-early-returns-1', () => {
   test.todo('', () => {});
 });
