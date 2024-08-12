@@ -1,7 +1,7 @@
 /**
  * Processes an order based on its payment and shipping status.
  *
- * @param {{isPaid: boolean, isShipped?: boolean, isCanceled?: boolean}} order - An object representing the order, with boolean properties 'isPaid', 'isShipped', and 'isCancelled'.
+ * @param {{isPaid: boolean, isShipped?: boolean, isCanceled?: boolean}} order - An object representing the order, with boolean properties 'isPaid', 'isShipped', and 'isCanceled'.
  * @return {string} A message describing the order's status.
  */
 export function processOrder(order) {
