@@ -6,8 +6,7 @@ if (!Array.prototype.at) {
   };
 } 
 */
-// However, for this exercise, we'll define it as a regular function.
+// However, for this exercise, we'll define it with a different name to not confuse the global object.
+// We can of course, also override it but let's not do that!
 
-export function arrayAt(arr, index) {
-  // TODO: Implement the functionality of Array.at
-}
+export function myAt(index) {}
