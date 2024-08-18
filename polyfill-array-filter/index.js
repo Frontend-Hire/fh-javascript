@@ -13,7 +13,6 @@ if (!Array.prototype.filter) {
  * A polyfill implementation of the Array.prototype.filter method.
  *
  * @param {Function} callback - A function to test each element of the array that is coercible to boolean.
- * @param {*} [thisArg] - An object to which the this keyword can refer in the callback function.
  * @return {Array} A new array with all elements that pass the test implemented by the provided function.
  */
-export function myFilter(cb, thisArg) {}
+export function myFilter(cb) {}
