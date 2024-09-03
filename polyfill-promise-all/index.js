@@ -13,7 +13,7 @@ if (!Promise.all) {
 /**
  * A polyfill implementation of the Promise.all method.
  *
- * @param {Iterable<Promise<any>>} promises - An iterable of promises.
+ * @param {Array<Promise<any>>} promises - An array of promises.
  * @return {Promise<Array<any>>} A promise that resolves when all promises in the input array have resolved, or rejects immediately upon any of the input promises rejecting.
  */
 export function myAll(promises) {
