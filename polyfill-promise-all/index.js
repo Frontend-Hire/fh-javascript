@@ -1,7 +1,8 @@
-// Normally, a polyfill would be implemented as part of the prototype of a global object.
+// Normally, a polyfill would be implemented as part of the prototype or the constructor of a global object.
+// In this case, it is part of the Promise constructor.
 /* Something like the below
-if (!Promise.prototype.all) {
-  Promise.prototype.all = function(index) {
+if (!Promise.all) {
+  Promise.all = function(index) {
     // Implementation goes here.
   };
 } 
