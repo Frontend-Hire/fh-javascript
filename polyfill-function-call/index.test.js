@@ -1,10 +1,10 @@
 import { describe, test, expect, beforeAll } from 'vitest';
 
-import { myBind } from '.';
+import { myCall } from '.';
 
-describe('polyfill-function-bind', () => {
+describe('polyfill-function-call', () => {
   beforeAll(() => {
-    Function.prototype.myBind = myBind;
+    Function.prototype.myCall = myCall;
   });
 
   test.todo('', () => {});
